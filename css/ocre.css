@@ -1,0 +1,66 @@
+.archi{
+    width: 30%;
+    height : 100px;
+    background-color : #10ac84;
+    border : 2px solid black;
+}
+
+.boutonm{
+    background-color : #333;
+    border: 2px solid black;
+    color : white; 
+    width : 30px;
+    height : 30px;
+    font-size : 30px;
+}
+
+.droite{
+    text-align: center;
+    display: inline-block;
+    width : 65%;
+    height : 100px;
+}
+
+.image_archi{
+    width : 30%;
+    display: inline-block;
+}
+
+.boutonp{
+    background-color : #333;
+    border: 2px solid black;
+    color : white; 
+    width : 30px;
+    height : 30px;
+    font-size : 30px;
+    margin-right:20px;
+}
+
+.boutonp:hover{
+    background-color : #333;
+    color : white;
+    cursor: pointer;
+}
+
+body{
+    font-family: 'Satisfy', cursive;
+    font-size : 19px;
+}
+
+.appliquer:hover {
+    background-color: #4CAF50; 
+    color: white;
+    cursor: pointer;
+
+}
+
+.appliquer{
+    color: black;
+    padding: 8px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; /* Green */
+    border-radius: 4px;
+    border: 2px solid #4CAF50;
+}

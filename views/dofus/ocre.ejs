@@ -1,0 +1,55 @@
+<%- include('../header',{css:'ocre'}); %>
+<main class="ocre">
+<section>
+    <br>
+    <div class="tete">
+        <div>
+            <ul>
+                <li>Voici le nombre d'archimonstres manquants pour valider &nbsp;</li>
+                <li>
+                    <select size="1" style="height:25px">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </li>
+                <li>&nbsp;quêtes</li>
+            </ul>
+        </div>
+
+        <form>
+                <p>Veuillez choisir la méthode de tri des archimonstres en fonction du nombre possédé :</p>
+                <div>
+                  <input type="radio" id="methode1"
+                   name="contact" value="croissant">
+                  <label for="methode1">Croissant</label>
+              
+                  <input type="radio" id="methode2"
+                   name="contact" value="decroissant">
+                  <label for="mehode2">Décroissant&nbsp;&nbsp;</label>
+                  <div class="appliquer">Appliquer</div>
+                </div>
+              </form>
+    </div>          
+    <br>
+    <div class="archi">
+        <div class="image_archi">
+            <img style="width:100px;" src="/media/castor.png" >
+        </div>
+        <div class="droite">
+            <div class="droite_haut">
+                <span>Je suis un archi</span>
+                <br>
+                <span >Nombre possédé(s) : xxx</span>            
+            </div>
+            <br>
+            <div class="boutons">
+                <input type="button"  value="+" class="boutonp"/>
+                <input type="button"  value="-" class="boutonm"/>
+            </div>
+        </div>  
+    </div>  
+                
+
+</section>
+</main>
